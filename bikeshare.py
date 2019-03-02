@@ -16,7 +16,7 @@ def get_raw_data(city):
 
 def does_user_need_raw_data():
     """
-    Asks user if more raw data is to be displayed and returns true if user says 'yes'
+    Ask user if more raw data is to be displayed and returns true if user says 'yes'
     :return: Returns True if user needs to input more data and False otherwise
     """
     raw_data_input_message = "\nDo you want to see next " + str(no_lines_of_raw_to_display) + " lines of raw data? Enter yes or no"
@@ -24,7 +24,7 @@ def does_user_need_raw_data():
 
 def display_raw_data(city):
     """
-    Displays raw data based on required number of lines
+    Display raw data based on required number of lines
     :param city: City whose details have to be displayed
     """
     raw_data = get_raw_data(city)

@@ -2,7 +2,7 @@
 02 March, 2019
 
 ### Project Title
-US bikeshare descriptive statistics
+US bike share data's descriptive statistics
 
 ### Description
 Import US bike share data and answer questions about it by computing descriptive statistics by taking raw input to create an interactive experience in the terminal to present these statistics.
